@@ -10,7 +10,7 @@ public class Config {
     private static Properties properties = new Properties();
 
     static {
-        try (InputStream input = Config.class.getClassLoader().getResourceAsStream("application.properties")) {
+        try (InputStream input = Config.class.getClassLoader().getResourceAsStream("config.properties")) {
             if (input == null) {
                 System.out.println("Sorry, unable to find application.properties");
                 throw new RuntimeException("Sorry, unable to find application.properties");

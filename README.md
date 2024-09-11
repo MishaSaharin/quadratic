@@ -8,8 +8,14 @@ a microservice that for any real a, b and c solves the equation a*x^2+b*x+c=7
 * [Git](https://github.com/)
 * [JUnit 5](https://junit.org/junit5/)
 
-### Just fo Test
+### On view
 
 ``
-Bom - Boom )))
+Введите коэффициент a: 44
+Введите коэффициент b: -6
+Введите коэффициент c: 8
+Уравнение имеет комплексные корни:
+x1 = 0.06818181818 + 0.1344563588i
+x2 = 0.06818181818 - 0.1344563588i
+Process finished with exit code 0
 ``

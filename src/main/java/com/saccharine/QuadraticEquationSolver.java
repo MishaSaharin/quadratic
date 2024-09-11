@@ -5,7 +5,6 @@ import com.saccharine.quadratic.config.Config;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
-import java.math.RoundingMode;
 
 public class QuadraticEquationSolver {
     private static final BigDecimal EPSILON = new BigDecimal("1E-9");
